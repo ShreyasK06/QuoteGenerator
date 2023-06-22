@@ -13,14 +13,25 @@ body {
     font-family: Rubik, sans-serif;
     font-weight: 700;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
 
+h1 {
+    width: 100vh;
+    border: 6px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: black;
+}
 
 .quote-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18vh;
     width: auto;
     max-width: 900px;
     padding: 20px 30px;
